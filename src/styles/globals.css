@@ -21,3 +21,14 @@
 .playfair{
   font-family: "Playfair Display", system-ui;
 }
+
+
+.perspective-container {
+  perspective: 550px;
+  transform-style: preserve-3d;
+}
+
+.perspective-content {
+  transform: rotate3d(1, 0, 0, 25deg);
+  /* Any other transformations or styles for content */
+}

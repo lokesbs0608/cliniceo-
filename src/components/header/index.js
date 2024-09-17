@@ -5,6 +5,7 @@ import Link from "next/link";
 import WhatsappIcon from "../../assets/whatsapp_icon.png";
 import EmailIcon from "../../assets/call_icon.png";
 import { HiMenuAlt3, HiX } from "react-icons/hi"; // Import icons for mobile menu
+import SocialMediaCard from "../SocialMedia";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false); // State to manage mobile menu toggle
@@ -106,6 +107,7 @@ const Header = () => {
                     </nav>
                 </div>
             </nav>
+
         </header>
     );
 };
