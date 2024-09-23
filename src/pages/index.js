@@ -1,5 +1,6 @@
 
 import AboutProduct from "./home/aboutProduct";
+import Clients from "./home/clients";
 import HeroSection from "./home/heroSection";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <AboutProduct />
+      <Clients />
     </div>
   );
 }
