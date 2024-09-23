@@ -31,7 +31,7 @@ const Header = () => {
     ];
 
     return (
-        <header className="sticky top-0 z-50 bg-white shadow-md">
+        <header className="sticky top-0 z-50 bg-white shadow-md font-poppins">
             <nav className="container mx-auto p-4 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/">
