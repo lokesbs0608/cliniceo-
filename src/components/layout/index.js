@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
                 {children}
             </main>
             {/* <Footer /> */}
-            <div className="fixed bottom-[45px] right-[30px]">
+            <div className="fixed bottom-[45px] right-[30px] z-40">
                 <SocialsType2 />
             </div>
         </div>

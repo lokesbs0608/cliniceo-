@@ -80,3 +80,32 @@ html {
   max-width: max-content !important;
 }
 
+
+.product-swiper{
+  .react-multiple-carousel__arrow--left {
+    left: calc(4% + 1px) !important;
+    bottom: 25% !important;
+  }
+  
+  .react-multiple-carousel__arrow--right {
+    right: calc(4% + 1px) !important;
+    bottom: 25% !important;
+  }
+  
+  .react-multiple-carousel__arrow {
+    background: transparent !important;
+  }
+  
+  .react-multiple-carousel__arrow--right::before {
+    content: url("../assets/greater.png") !important;
+    background-color: transparent !important;
+  }
+  
+  
+  .react-multiple-carousel__arrow--left::before { content: url("../assets/greater.png") !important;
+    rotate: 180deg !important;
+    background-color: transparent !important;
+    top: -7px !important;
+    max-width: max-content !important;
+  }
+}
