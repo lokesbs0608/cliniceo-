@@ -24,7 +24,6 @@ const SocialsType2 = () => {
         <div>
             <div className="flex items-center justify-between flex-col gap-4">
                 {socialMediaObj.map((item, index) => {
-                    const Icon = item.icon;
                     return (
                         <div>
                             <a key={index} target="_blank" href={item?.path}>

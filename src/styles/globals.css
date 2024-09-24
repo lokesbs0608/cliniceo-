@@ -42,3 +42,14 @@ html {
     transform: translateX(var(--scroll-end));
   }
 }
+
+
+.hide-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+
+  /* For WebKit-based browsers (Chrome, Safari, etc.) */
+  &::-webkit-scrollbar {
+      display: none;
+  }
+}
