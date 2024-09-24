@@ -43,13 +43,40 @@ html {
   }
 }
 
-
 .hide-scrollbar {
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For Internet Explorer and Edge */
 
   /* For WebKit-based browsers (Chrome, Safari, etc.) */
   &::-webkit-scrollbar {
-      display: none;
+    display: none;
   }
 }
+
+.react-multiple-carousel__arrow--left {
+  left: calc(70% + 1px) !important;
+  bottom: 0% !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: calc(4% + 1px) !important;
+  bottom: 0% !important;
+}
+
+.react-multiple-carousel__arrow {
+  background: transparent !important;
+}
+
+.react-multiple-carousel__arrow--right::before {
+  content: url("../assets/arrow.png") !important;
+  background-color: transparent !important;
+}
+
+
+.react-multiple-carousel__arrow--left::before { content: url("../assets/arrow.png") !important;
+  rotate: 180deg !important;
+  background-color: transparent !important;
+  top: -7px !important;
+  max-width: max-content !important;
+}
+
